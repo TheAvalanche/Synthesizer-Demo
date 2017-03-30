@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="XbbTyL" name="SynthesizerDemo" projectType="audioplug" version="1.0.0"
+              bundleIdentifier="org.symphodia.SynthesizerDemo" includeBinaryInAppConfig="1"
+              buildVST="1" buildVST3="1" buildAU="0" buildAUv3="0" buildRTAS="0"
+              buildAAX="0" pluginName="SynthesizerDemo" pluginDesc="SynthesizerDemo"
+              pluginManufacturer="Symphodia" pluginManufacturerCode="Symp"
+              pluginCode="Xbbt" pluginChannelConfigs="" pluginIsSynth="1" pluginWantsMidiIn="1"
+              pluginProducesMidiOut="0" pluginIsMidiEffectPlugin="0" pluginEditorRequiresKeys="0"
+              pluginAUExportPrefix="SynthesizerDemoAU" pluginRTASCategory=""
+              aaxIdentifier="com.yourcompany.SynthesizerDemo" pluginAAXCategory="AAX_ePlugInCategory_Dynamics"
+              jucerVersion="4.3.0" companyName="Symphodia">
+  <MAINGROUP id="S3yYcN" name="SynthesizerDemo">
+    <GROUP id="{F08A8DBD-5E9A-3E6E-37C3-699AE203FE1D}" name="Source">
+      <FILE id="zzZ1Rc" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="SRa86o" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+      <FILE id="b76uUC" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/PluginEditor.cpp"/>
+      <FILE id="JlSx7t" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <EXPORTFORMATS>
+    <VS2015 targetFolder="Builds/VisualStudio2015" vst3Folder="">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" winWarningLevel="4" generateManifest="1" winArchitecture="32-bit"
+                       isDebug="1" optimisation="1" targetName="SynthesizerDemo"/>
+        <CONFIGURATION name="Release" winWarningLevel="4" generateManifest="1" winArchitecture="x64"
+                       isDebug="0" optimisation="3" targetName="SynthesizerDemo"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../juce-grapefruit-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../juce-grapefruit-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../juce-grapefruit-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../juce-grapefruit-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../juce-grapefruit-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../juce-grapefruit-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../juce-grapefruit-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_video" path="../juce-grapefruit-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_opengl" path="../juce-grapefruit-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../juce-grapefruit-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../juce-grapefruit-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../juce-grapefruit-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../juce-grapefruit-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../juce-grapefruit-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../juce-grapefruit-windows/JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2015>
+    <VS2013 targetFolder="Builds/VisualStudio2013" vst3Folder="">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" winWarningLevel="4" generateManifest="1" winArchitecture="32-bit"
+                       isDebug="1" optimisation="1" targetName="SynthesizerDemo"/>
+        <CONFIGURATION name="Release" winWarningLevel="4" generateManifest="1" winArchitecture="32-bit"
+                       isDebug="0" optimisation="3" targetName="SynthesizerDemo"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../juce-grapefruit-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../juce-grapefruit-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../juce-grapefruit-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../juce-grapefruit-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../juce-grapefruit-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../juce-grapefruit-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../juce-grapefruit-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_video" path="../juce-grapefruit-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_opengl" path="../juce-grapefruit-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../juce-grapefruit-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../juce-grapefruit-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../juce-grapefruit-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../juce-grapefruit-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../juce-grapefruit-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../juce-grapefruit-windows/JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2013>
+    <VS2012 targetFolder="Builds/VisualStudio2012" vst3Folder="">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" winWarningLevel="4" generateManifest="1" winArchitecture="32-bit"
+                       isDebug="1" optimisation="1" targetName="SynthesizerDemo"/>
+        <CONFIGURATION name="Release" winWarningLevel="4" generateManifest="1" winArchitecture="32-bit"
+                       isDebug="0" optimisation="3" targetName="SynthesizerDemo"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../juce-grapefruit-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../juce-grapefruit-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../juce-grapefruit-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../juce-grapefruit-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../juce-grapefruit-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../juce-grapefruit-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../juce-grapefruit-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_video" path="../juce-grapefruit-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_opengl" path="../juce-grapefruit-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../juce-grapefruit-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../juce-grapefruit-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../juce-grapefruit-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../juce-grapefruit-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../juce-grapefruit-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../juce-grapefruit-windows/JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2012>
+    <CODEBLOCKS_WINDOWS targetFolder="Builds/CodeBlocksWindows">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" isDebug="1" optimisation="1" targetName="SynthesizerDemo"/>
+        <CONFIGURATION name="Release" isDebug="0" optimisation="3" targetName="SynthesizerDemo"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../juce-grapefruit-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../juce-grapefruit-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../juce-grapefruit-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../juce-grapefruit-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../juce-grapefruit-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../juce-grapefruit-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../juce-grapefruit-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_video" path="../juce-grapefruit-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_opengl" path="../juce-grapefruit-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../juce-grapefruit-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../juce-grapefruit-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../juce-grapefruit-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../juce-grapefruit-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../juce-grapefruit-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../juce-grapefruit-windows/JUCE/modules"/>
+      </MODULEPATHS>
+    </CODEBLOCKS_WINDOWS>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_cryptography" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_opengl" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_video" showAllCode="1" useLocalCopy="0"/>
+  </MODULES>
+  <JUCEOPTIONS JUCE_QUICKTIME="disabled"/>
+  <LIVE_SETTINGS>
+    <WINDOWS/>
+  </LIVE_SETTINGS>
+</JUCERPROJECT>
